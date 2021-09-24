@@ -13,48 +13,24 @@
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $base-default;
   }
   
   .error {
-    background-color: #e4757a;
+    background-color: $base-error;
   }
   
   .info {
-    background-color: #927bc1;
+    background-color:$base-info;
   }
   
   .success {
-    background-color: #63cc82;
+    background-color:$base-success;
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $base-warning;
   }
   
   
-  /* ============================================= */
-  /*              Forms                            */
-  /* ============================================= */
   
-  .form {
-    flex-basis: 100%;
-  }
-  
-  .input{
-    display: block;
-    width: 94%;
-    margin: 10px auto 0;
-    border: none;
-    padding: 10px;
-    border-bottom: 5px solid #58e1c1;
-  }
-  
-  .hidden {
-    position:absolute;
-    left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
-  }
